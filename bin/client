@@ -8,7 +8,7 @@ var argv = require('yargs')
     .option('h', {
         alias: 'host',
         describe: 'Upstream server providing forwarding',
-        default: 'https://localtunnel.me',
+        default: 'http://lt.ngapp.net',
     })
     .option('s', {
         alias: 'subdomain',
@@ -25,6 +25,7 @@ var argv = require('yargs')
     .option('p', {
         alias: 'port',
         describe: 'Internal http server port',
+        default: 80,
     })
     .option('print-requests', {
         describe: 'Print basic request info',
