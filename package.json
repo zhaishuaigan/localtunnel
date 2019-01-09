@@ -1,6 +1,6 @@
 {
   "author": "Roman Shtylman <shtylman@gmail.com>",
-  "name": "shuai-localtunnel",
+  "name": "shuai-lt",
   "description": "expose localhost to the world",
   "version": "1.9.3",
   "license": "MIT",
